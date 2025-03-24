@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="380.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.homework.Controllers.LessonController">
+    <children>
+        <VBox layoutX="30.0" layoutY="36.0" prefHeight="215.0" prefWidth="170.0" spacing="20.0">
+            <children>
+                <Label text="Lesson Information System" />
+                <Label text="Lesson Id" />
+                <Label text="Lesson Name" />
+                <Label text="Credits" />
+            </children>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+        </VBox>
+        <VBox layoutX="175.0" layoutY="59.0" prefHeight="106.0" prefWidth="267.0" spacing="15.0">
+            <children>
+                <TextField fx:id="txtLessonId" />
+                <TextField fx:id="txtLessonName" />
+                <TextField fx:id="txtCredits" />
+            </children>
+        </VBox>
+        <Button fx:id="btnFetchLesson" layoutX="63.0" layoutY="251.0" mnemonicParsing="false"
+                onAction="#onFetchLessonClick" prefHeight="7.0" prefWidth="60.0" text="FETCH" />
+        <Button fx:id="btnCreateLesson" layoutX="165.0" layoutY="251.0" mnemonicParsing="false"
+                onAction="#onCreateLessonClick" text="CREATE" />
+        <Button fx:id="btnUpdateLesson" layoutX="265.0" layoutY="251.0" mnemonicParsing="false"
+                onAction="#onUpdateLessonClick" text="UPDATE" />
+        <Button fx:id="btnDeleteLesson" layoutX="365.0" layoutY="251.0" mnemonicParsing="false"
+                onAction="#onDeleteLessonClick" text="DELETE" />
+        <Button fx:id="btnStudent" layoutX="465.0" layoutY="251.0" mnemonicParsing="false"
+                onAction="#onStudentButtonClick" text="STUDENT" />
+    </children>
+</AnchorPane>
