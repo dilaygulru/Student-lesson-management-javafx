@@ -1,9 +1,7 @@
-```markdown
 # 🎓 Student & Lesson Management (JavaFX + MySQL)
 
 A JavaFX desktop application for managing students and lessons with a user-friendly interface and full CRUD functionality. Built with pure Java, JDBC, and FXML views.
 
----
 
 ## 🧩 Features
 
@@ -13,7 +11,6 @@ A JavaFX desktop application for managing students and lessons with a user-frien
 - 🗃️ Data persistence using MySQL with JDBC
 - ⚡ Automatic table creation if not exists
 
----
 
 ## 🛠️ Technologies Used
 
@@ -23,8 +20,6 @@ A JavaFX desktop application for managing students and lessons with a user-frien
 - JDBC
 - FXML (Scene Builder friendly)
 - IntelliJ IDEA / VS Code
-
----
 
 ## 🚀 Getting Started
 
